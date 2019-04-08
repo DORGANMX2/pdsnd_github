@@ -2,10 +2,11 @@
 07-04-2019
 
 ### Project Title
-Udacity Project 3_Share of bikeshare.py project on GitHub
+Udacity Project 3_Share of bikeshare.py project on GitHub :octocat:
 
 ### Description
-Udacity Project 3 is a course on version control. It uses the course work from a python project learn Git how to share a project on GitHub.
+[Udacity](https://udacity.com) Project 3 is a course on version control. It uses the course work from a python project to learn Git and how to share a project on GitHub.
+
 
 ### Files used
 * bikeshare.py
