@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+07-04-2019
 
 ### Project Title
-Replace the Project Title
+Udacity Project 3_Share of bikeshare.py project on GitHub
 
 ### Description
-Describe what your project is about and what it does
+Udacity Project 3 is a course on version control. It uses the course work from a python project learn Git how to share a project on GitHub.
 
 ### Files used
-Include the files used
+* bikeshare.py
+* washington.csv
+* chicargo.csv
+* new_york_city.csv
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credit to project mentor @Raheel K for reviewing my code and highlighting issues before project submission :+1:
