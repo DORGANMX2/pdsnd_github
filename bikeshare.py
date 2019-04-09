@@ -18,7 +18,13 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
+
     print('Hello! Let\'s explore some US bikeshare data today!')
+
+    print('Hello! Let\'s explore some US bikeshare data!')
+
+    print('Hello! Let\'s explore some US bikeshare data!')
+
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input('\nChoose a city between Chicago, New York City, and Washington:\n> ').lower()
@@ -77,7 +83,12 @@ def load_data(city, month, day):
     if month != 'all':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         month = months.index(month) + 1
+
         # filter by month to create the new dataframe
+
+        # filter by month to create the new dataframe
+
+    # filter by month to create the new dataframe
         df = df[df['month'] == month]
 
     # filter by day of week if applicable
@@ -96,8 +107,10 @@ def time_stats(df):
     # TO DO: display the most common month
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
+
     # extract month from the Start Time column to create a month column
     df['month'] = df['Start Time'].dt.month
+
     # find the most popular month
     popular_month = df['month'].mode()[0]
     print('Most Popular Month: {}'.format(popular_month))
@@ -106,8 +119,10 @@ def time_stats(df):
     # TO DO: display the most common day of week
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
+
     # extract day from the Start Time column to create a day column
     df['day'] = df['Start Time'].dt.day
+
     # find the most popular day
     popular_day = df['day'].mode()[0]
     print('Most Popular Day: {}'.format(popular_day))
@@ -115,8 +130,10 @@ def time_stats(df):
     # TO DO: display the most common start hour
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
+
     # extract hour from the Start Time column to create an hour column
     df['hour'] = df['Start Time'].dt.hour
+
     # find the most popular hour
     popular_hour = df['hour'].mode()[0]
     print('Most Popular Hour: {}'.format(popular_hour))
@@ -220,12 +237,14 @@ def raw_data(df):
         start_time = time.time()
         # index number = 0
         i = 0
+
         # this while loop cycles through raw data in csv and displays it
         while True:
             print(df.iloc[i:i + 5])
             i += 5
             print("\nThis took %s seconds." % (time.time() - start_time))
             more_data_request = input('\nWould you like to see 5 more rows of raw data?  (Yes or No)\n> ').lower()
+
             # breaks out of loop if user doesn't type "yes"
             if more_data_request != 'yes':
                 break
