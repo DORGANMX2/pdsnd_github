@@ -17,3 +17,7 @@ Udacity Project 3_Share of bikeshare.py project on GitHub :octocat:
 
 ### Credits
 Credit to project mentor @Raheel K for reviewing my code and highlighting issues before project submission :+1:
+
+
+### Known bugs & updates
+.gitignore fix used to remove raw data file from the GitHub repository as they were added in error originally. 
